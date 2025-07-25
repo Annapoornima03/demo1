@@ -6,6 +6,8 @@ import About from './Components/Pages/About';
 import Contactus from './Components/Pages/Contactus';
 import Login from './Components/Login';
 import Profile from './Components/Pages/Profile';
+import MenuPage from './Components/Pages/MenuPage';
+
 // import './App.css'
 
 import { BrowserRouter,Routes, Route, useNavigate } from 'react-router-dom';
@@ -22,6 +24,7 @@ function App() {
         <Route path="/About" element={<About />} />
 		<Route path="/Contactus" element={<Contactus />} />
                 <Route path="/Profile" element={<Profile />} />
+                <Route path="/menu" element={<MenuPage />} />
 
       </Routes></BrowserRouter>
   )
